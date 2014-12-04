@@ -26,6 +26,6 @@ Motion::Project::App.setup do |app|
   app.info_plist['CFBundleURLTypes'] = [
     { 'CFBundleTypeRole'   => 'Editor',
       'CFBundleURLName'    => 'Dropbox',
-      'CFBundleURLSchemes' => ['db-xoit9j3uwj9vmdv'] }
+      'CFBundleURLSchemes' => ["db-#{App::ENV['DROPBOX_KEY']}"] }
   ]
 end

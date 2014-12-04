@@ -1,5 +1,6 @@
 class TimerController < UIViewController
   attr_reader :timer, :player, :playback_error, :recorder
+  attr_accessor :manager, :account, :store
 
   def viewDidLoad
     margin = 20
@@ -57,6 +58,12 @@ class TimerController < UIViewController
     @play.frame = [[margin, 300], [view.frame.size.width - margin * 2, 40]]
     @play.addTarget(self, action:'playSound', forControlEvents:UIControlEventTouchUpInside)
     view.addSubview(@play)
+
+    @linkToDropbox = UIButton.buttonWithType(UIButtonTypeRoundedRect)
+    @linkToDropbox.setTitle("Link To Dropbox", forState:UIControlStateNormal)
+    @linkToDropbox.frame = [[margin, 340], [view.frame.size.width - margin * 2, 40]]
+    @linkToDropbox.addTarget(self, action: 'linkToDropbox', forControlEvents:UIControlEventTouchUpInside)
+    view.addSubview(@linkToDropbox)
   end
 
   def actionTapped
@@ -64,6 +71,13 @@ class TimerController < UIViewController
       @timer.invalidate
       @timer = nil
       @recorder.stop
+
+      # Steps required to send file to Dropbox
+      filesystem = DBFilesystem.alloc.initWithAccount(account)
+      DBFilesystem.setSharedFilesystem(filesystem)
+      newPath = DBPath.root.childPath("soundPath2.wav")
+      file = DBFilesystem.sharedFilesystem.createFile(newPath, error: nil)
+      file.writeContentsOfFile(getRecordingUrl.path, shouldSteal: false, error: nil)
     else
       @duration = 0
       if @recorder.prepareToRecord
@@ -91,5 +105,30 @@ class TimerController < UIViewController
 
   def timerFired
     @state.text = "%.1f" % (@duration += 0.1)
+  end
+
+  def reload
+    # navigationItem.leftBarButtonItem.title = if self.account then 'Unlink' else 'Link' end
+    # navigationItem.rightBarButtonItem.enabled = (self.account != nil)
+    self.store.sync(nil) if @store
+    # tableView.reloadData
+  end
+
+  def manager
+    DBAccountManager::sharedManager
+  end
+
+  def account
+    DBAccountManager::sharedManager.linkedAccount
+  end
+
+  def linkToDropbox
+    if self.account then
+      self.account.unlink
+      self.store = nil
+      reload
+    else
+      self.manager.linkFromController(self)
+    end
   end
 end
