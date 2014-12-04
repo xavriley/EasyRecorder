@@ -1,1 +1,7 @@
 .env
+*.swp
+*.orig
+.DS_Store
+*.storyboardc
+build
+.repl-history
