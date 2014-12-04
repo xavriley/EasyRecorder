@@ -12,9 +12,5 @@ Motion::Project::App.setup do |app|
     pod 'Dropbox-Sync-API-SDK'
   end
 
-  # app.vendor_project('vendor/Pods/Dropbox-iOS-SDK/dropbox-ios-sdk-1.3.13/DropboxSDK.framework', :static,
-  #                    :products => ['DropboxSDK'],
-  #                   )
-
   app.detect_dependencies = true
 end
