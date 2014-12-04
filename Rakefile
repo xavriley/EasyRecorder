@@ -13,4 +13,10 @@ Motion::Project::App.setup do |app|
   end
 
   app.detect_dependencies = true
+
+  app.info_plist['CFBundleURLTypes'] = [
+    { 'CFBundleTypeRole'   => 'Editor',
+      'CFBundleURLName'    => 'Dropbox',
+      'CFBundleURLSchemes' => ['db-xoit9j3uwj9vmdv'] }
+  ]
 end
