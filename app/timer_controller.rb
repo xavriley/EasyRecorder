@@ -72,12 +72,12 @@ class TimerController < UIViewController
       @timer = nil
       @recorder.stop
 
-      # Steps required to send file to Dropbox
-      filesystem = DBFilesystem.alloc.initWithAccount(account)
-      DBFilesystem.setSharedFilesystem(filesystem)
-      newPath = DBPath.root.childPath("soundPath2.wav")
-      file = DBFilesystem.sharedFilesystem.createFile(newPath, error: nil)
-      file.writeContentsOfFile(getRecordingUrl.path, shouldSteal: false, error: nil)
+      #ask for name or delete here
+      recording_detail_controller = RecordingDetailController.alloc.initWithParentController(self)
+      self.presentViewController(
+        UINavigationController.alloc.initWithRootViewController(recording_detail_controller),
+        animated: true,
+        completion: lambda {})
     else
       @duration = 0
       if @recorder.prepareToRecord
