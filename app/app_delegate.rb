@@ -1,7 +1,7 @@
 class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
-    mgr = DBAccountManager.alloc.initWithAppKey(App::ENV['DROPBOX_KEY'], secret:App::ENV['DROPBOX_SECRET'])
-    DBAccountManager.setSharedManager(mgr)
+
+    DBClientsManager.setupWithAppKey(NSBundle.mainBundle.objectForInfoDictionaryKey('ENV_DROPBOX_KEY'))
 
     @timerController = TimerController.alloc.init
 
@@ -12,13 +12,21 @@ class AppDelegate
     true
   end
 
-  def application(application, openURL:url, sourceApplication:sourceApplication, annotation:annotation)
-    if DBAccountManager.sharedManager.handleOpenURL(url) then
-      NSLog("App linked successfully!")
-      @timerController.reload
-      true
+  def application(application, handleOpenURL:url)
+    authResult = DBClientsManager.handleRedirectURL(url)
+
+    if (authResult != nil)
+      if (authResult.isSuccess)
+        NSLog("Success! User is logged into Dropbox.")
+        return true
+      elsif (authResult.isCancel)
+        NSLog("Authorization flow was manually canceled by user!")
+      elsif(authResult.isError)
+        NSLog("Error: %@", authResult)
+      end
     end
 
     false
   end
+
 end

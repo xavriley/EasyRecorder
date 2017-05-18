@@ -34,18 +34,33 @@ class RecordingDetailController < UIViewController
    @button.addTarget(self,
                     action: "validate_and_save",
                     forControlEvents: UIControlEventTouchUpInside)
-
   end
 
   def validate_and_save
-    # Steps required to send file to Dropbox
-    filesystem = DBFilesystem.alloc.initWithAccount(@parent_controller.account)
-    DBFilesystem.setSharedFilesystem(filesystem)
-    newPath = DBPath.root.childPath("#{@text_field.text}.wav")
-    file = DBFilesystem.sharedFilesystem.createFile(newPath, error: nil)
-    file.writeContentsOfFile(parent_controller.getRecordingUrl.path, shouldSteal: false, error: nil)
-    # for the table view
-    #filesystem.listFolder(DBPath.root, error: nil).inspect
+
+    client = DBClientsManager.authorizedClient
+
+    if client
+      fileData = NSData.dataWithContentsOfFile parent_controller.getRecordingUrl.path
+
+      # For overriding on upload
+      mode = DBFILESWriteMode.alloc.initWithOverwrite
+
+      uploadTask = client.filesRoutes.uploadData("/#{@text_field.text}.wav", mode:mode, autorename: true, clientModified:nil, mute: false,inputData:fileData)
+
+      uploadTask.setResponseBlock(lambda { |result,routeError, networkError|
+        if (result)
+          NSLog("%@\n", result)
+        else
+          NSLog("%@\n%@\n", routeError, networkError)
+        end
+      })
+
+      uploadTask.setProgressBlock(lambda { |bytesUploaded, totalBytesUploaded, totalBytesExpectedToUploaded|
+        NSLog("\n%lld\n%lld\n%lld\n", bytesUploaded, totalBytesUploaded, totalBytesExpectedToUploaded)
+      })
+    end
+
     self.dismissViewControllerAnimated(true, completion: lambda {})
   end
 end
