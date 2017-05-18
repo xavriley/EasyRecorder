@@ -67,28 +67,41 @@ class TimerController < UIViewController
   end
 
   def actionTapped
-    if @timer
-      @timer.invalidate
-      @timer = nil
-      @recorder.stop
 
-      #ask for name or delete here
-      recording_detail_controller = RecordingDetailController.alloc.initWithParentController(self)
-      self.presentViewController(
-        UINavigationController.alloc.initWithRootViewController(recording_detail_controller),
-        animated: true,
-        completion: lambda {})
-    else
-      @duration = 0
-      if @recorder.prepareToRecord
-        @recorder.record
-        @timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target:self, selector:'timerFired', userInfo:nil, repeats:true)
+    if DBClientsManager.authorizedClient
+      if @timer
+        @timer.invalidate
+        @timer = nil
+        @recorder.stop
+
+        #ask for name or delete here
+        recording_detail_controller = RecordingDetailController.alloc.initWithParentController(self)
+        self.presentViewController(
+          UINavigationController.alloc.initWithRootViewController(recording_detail_controller),
+          animated: true,
+          completion: lambda {})
       else
-        NSLog("Failed to prepare to record")
+        @duration = 0
+        if @recorder.prepareToRecord
+          @recorder.record
+          @timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target:self, selector:'timerFired', userInfo:nil, repeats:true)
+        else
+          NSLog("Failed to prepare to record")
+        end
       end
+      @action.selected = !@action.selected?
+    else
+
+      NSLog("no dropbox link")
+      #      UIAlertView.alloc.initWithTitle("No Dropbox link", message: "Please link app with Dropbox first", delegate: self, cancelButtonTitle: 'Cancel', otherButtonTitles: "OK")
     end
-    @action.selected = !@action.selected?
   end
+
+  def alertView(alertView, clickedButtonAtIndex: indexPath)
+    # do nothing...
+  end
+
+
 
   def playSound
     @player.prepareToPlay unless @playback_error
@@ -114,21 +127,9 @@ class TimerController < UIViewController
     # tableView.reloadData
   end
 
-  def manager
-    DBAccountManager::sharedManager
-  end
-
-  def account
-    DBAccountManager::sharedManager.linkedAccount
-  end
-
   def linkToDropbox
-    if self.account then
-      self.account.unlink
-      self.store = nil
-      reload
-    else
-      self.manager.linkFromController(self)
-    end
+    DBClientsManager.authorizeFromController(UIApplication.sharedApplication, controller:self, openURL:lambda {|url|
+      UIApplication.sharedApplication.openURL(url)
+    })
   end
 end

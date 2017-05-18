@@ -5,3 +5,4 @@
 *.storyboardc
 build
 .repl_history
+vendor
