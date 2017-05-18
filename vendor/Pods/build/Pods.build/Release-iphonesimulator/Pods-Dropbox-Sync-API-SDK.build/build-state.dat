@@ -1,126 +1,0 @@
-TPods-Dropbox-Sync-API-SDK
-v6
-r1
-cCheck dependencies
-cProcessPCH /var/folders/f1/9km2rrlj6j5cwwgzkz9thrp80000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-Dropbox-Sync-API-SDK-prefix-cayeibvhkmzabycslekckrdlkqft/Pods-Dropbox-Sync-API-SDK-prefix.pch.pch Target\ Support\ Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Objects-normal/i386/Pods-Dropbox-Sync-API-SDK-dummy.o /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target\ Support\ Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/.build/libPods-Dropbox-Sync-API-SDK.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c00000000000000000000000000000000
-t2
-s0
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000000000000000000000000000
-t2
-s0
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000000000000000000000000000
-t2
-s0
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
-c00000000000000000000000000000000
-t2
-s0
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c00000000000000000000000000000000
-t2
-s0
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
-c00000000521BCCE50000000000000176
-t1377553637
-s374
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
-c0000000052550CCB00000000000003B5
-t1381305547
-s949
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000052550CD1000000000000019E
-t1381305553
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
-c0000000052550CF10000000000000AC9
-t1381305585
-s2761
-
-N/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/.build/libPods-Dropbox-Sync-API-SDK.a
-t2
-s0
-
-N/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target Support Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-dummy.m
-c0000000054748413000000000000009A
-t1416922131
-s154
-
-N/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target Support Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-prefix.pch
-c0000000054748413000000000000004D
-t1416922131
-s77
-
-N/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Objects-normal/i386/Pods-Dropbox-Sync-API-SDK-dummy.o
-t1416922137
-s3608
-
-N/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Objects-normal/i386/Pods-Dropbox-Sync-API-SDK.LinkFileList
-c000000005474841900000000000000B2
-t1416922137
-s178
-
-N/var/folders/f1/9km2rrlj6j5cwwgzkz9thrp80000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-Dropbox-Sync-API-SDK-prefix-cayeibvhkmzabycslekckrdlkqft/Pods-Dropbox-Sync-API-SDK-prefix.pch.pch
-t1416922137
-s115684
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesaf983d99bb24ba41^25084799bb24ba41^---0#1#1#--18"Check dependencies36"1F144BEF-E76A-4D22-974A-3BEE5DA73C6A-
-
-CCompileC build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Objects-normal/i386/Pods-Dropbox-Sync-API-SDK-dummy.o /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target\ Support\ Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s438614937.473588
-e438614937.628798
-r1
-xCompileC
-xbuild/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Objects-normal/i386/Pods-Dropbox-Sync-API-SDK-dummy.o
-x/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target Support Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-dummy.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target Support Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target Support Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-dummy.m286"CompileC build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Objects-normal/i386/Pods-Dropbox-Sync-API-SDK-dummy.o Target\ Support\ Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler36727999bb24ba41^94f8a099bb24ba41^---0#0#1#-19%DVTDocumentLocation2@151"file://localhost/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target%20Support%20Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-dummy.m0000000000000000^4804"CompileC build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Objects-normal/i386/Pods-Dropbox-Sync-API-SDK-dummy.o Target\ Support\ Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xavierriley/Motion/EasyRecorder/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/xavierriley/.rvm/gems/ruby-2.1.2/bin:/Users/xavierriley/.rvm/gems/ruby-2.1.2@global/bin:/Users/xavierriley/.rvm/rubies/ruby-2.1.2/bin:/Users/xavierriley/.rvm/bin:/usr/local/turbot/bin:/usr/local/sbin:/usr/local/bin:/Users/xavierriley/.cask/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/Users/xavierriley/.composer/vendor/bin:/Users/xavierriley/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/f1/9km2rrlj6j5cwwgzkz9thrp80000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DRELEASE=1 -DCOCOAPODS=1 -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Pods-Dropbox-Sync-API-SDK-generated-files.hmap -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Pods-Dropbox-Sync-API-SDK-own-target-headers.hmap -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Pods-Dropbox-Sync-API-SDK-all-target-headers.hmap -iquote /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Pods-Dropbox-Sync-API-SDK-project-headers.hmap -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/.build/include -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Headers/Build -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Headers/Build/Dropbox-Sync-API-SDK -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Headers/Public -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Headers/Public/Dropbox-Sync-API-SDK -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/DerivedSources/i386 -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/DerivedSources -F/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/.build -F/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Dropbox-Sync-API-SDK/dropbox-ios-sync-sdk-3.1.1 -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/f1/9km2rrlj6j5cwwgzkz9thrp80000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-Dropbox-Sync-API-SDK-prefix-cayeibvhkmzabycslekckrdlkqft/Pods-Dropbox-Sync-API-SDK-prefix.pch -MMD -MT dependencies -MF /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Objects-normal/i386/Pods-Dropbox-Sync-API-SDK-dummy.d --serialize-diagnostics /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Objects-normal/i386/Pods-Dropbox-Sync-API-SDK-dummy.dia -c /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target\ Support\ Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-dummy.m -o /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Objects-normal/i386/Pods-Dropbox-Sync-API-SDK-dummy.o36"5BC2F4B8-DBF3-4D83-A90B-EEDC587D8097-
-bC073CB14-D6D9-4F91-B268-4E41C4741597
-
-CLibtool /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/.build/libPods-Dropbox-Sync-API-SDK.a normal i386
-s438614937.637410
-e438614937.650885
-r1
-xLibtool
-x/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/.build/libPods-Dropbox-Sync-API-SDK.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Libtool .build/libPods-Dropbox-Sync-API-SDK.a normal i38657"Libtool .build/libPods-Dropbox-Sync-API-SDK.a normal i386f853a399bb24ba41^0ea1a699bb24ba41^---0#0#1#--1433"Libtool .build/libPods-Dropbox-Sync-API-SDK.a normal i386    cd /Users/xavierriley/Motion/EasyRecorder/vendor/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/xavierriley/.rvm/gems/ruby-2.1.2/bin:/Users/xavierriley/.rvm/gems/ruby-2.1.2@global/bin:/Users/xavierriley/.rvm/rubies/ruby-2.1.2/bin:/Users/xavierriley/.rvm/bin:/usr/local/turbot/bin:/usr/local/sbin:/usr/local/bin:/Users/xavierriley/.cask/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/Users/xavierriley/.composer/vendor/bin:/Users/xavierriley/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/.build -filelist /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Objects-normal/i386/Pods-Dropbox-Sync-API-SDK.LinkFileList -framework CFNetwork -framework Foundation -framework QuartzCore -framework Security -framework SystemConfiguration -o /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/.build/libPods-Dropbox-Sync-API-SDK.a36"2274247E-A6DE-48F6-8668-ED342E85C2EE-
-bC073CB14-D6D9-4F91-B268-4E41C4741597
-
-CProcessPCH /var/folders/f1/9km2rrlj6j5cwwgzkz9thrp80000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-Dropbox-Sync-API-SDK-prefix-cayeibvhkmzabycslekckrdlkqft/Pods-Dropbox-Sync-API-SDK-prefix.pch.pch Target\ Support\ Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s438614937.283787
-e438614937.464652
-r1
-xProcessPCH
-x/var/folders/f1/9km2rrlj6j5cwwgzkz9thrp80000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-Dropbox-Sync-API-SDK-prefix-cayeibvhkmzabycslekckrdlkqft/Pods-Dropbox-Sync-API-SDK-prefix.pch.pch
-xTarget Support Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target Support Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-prefix.pch
-d/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target Support Files/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Precompile Target Support Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-prefix.pch383"ProcessPCH /var/folders/f1/9km2rrlj6j5cwwgzkz9thrp80000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-Dropbox-Sync-API-SDK-prefix-cayeibvhkmzabycslekckrdlkqft/Pods-Dropbox-Sync-API-SDK-prefix.pch.pch Target\ Support\ Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb1f94899bb24ba41^a6f27699bb24ba41^---0#0#1#-19%DVTDocumentLocation2@154"file://localhost/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target%20Support%20Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-prefix.pch0000000000000000^4806"ProcessPCH /var/folders/f1/9km2rrlj6j5cwwgzkz9thrp80000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-Dropbox-Sync-API-SDK-prefix-cayeibvhkmzabycslekckrdlkqft/Pods-Dropbox-Sync-API-SDK-prefix.pch.pch Target\ Support\ Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xavierriley/Motion/EasyRecorder/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/xavierriley/.rvm/gems/ruby-2.1.2/bin:/Users/xavierriley/.rvm/gems/ruby-2.1.2@global/bin:/Users/xavierriley/.rvm/rubies/ruby-2.1.2/bin:/Users/xavierriley/.rvm/bin:/usr/local/turbot/bin:/usr/local/sbin:/usr/local/bin:/Users/xavierriley/.cask/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/Users/xavierriley/.composer/vendor/bin:/Users/xavierriley/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/f1/9km2rrlj6j5cwwgzkz9thrp80000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DRELEASE=1 -DCOCOAPODS=1 -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Pods-Dropbox-Sync-API-SDK-generated-files.hmap -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Pods-Dropbox-Sync-API-SDK-own-target-headers.hmap -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Pods-Dropbox-Sync-API-SDK-all-target-headers.hmap -iquote /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/Pods-Dropbox-Sync-API-SDK-project-headers.hmap -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/.build/include -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Headers/Build -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Headers/Build/Dropbox-Sync-API-SDK -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Headers/Public -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Headers/Public/Dropbox-Sync-API-SDK -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/DerivedSources/i386 -I/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-Dropbox-Sync-API-SDK.build/DerivedSources -F/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/.build -F/Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Dropbox-Sync-API-SDK/dropbox-ios-sync-sdk-3.1.1 -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/f1/9km2rrlj6j5cwwgzkz9thrp80000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-Dropbox-Sync-API-SDK-prefix-cayeibvhkmzabycslekckrdlkqft/Pods-Dropbox-Sync-API-SDK-prefix.pch.dia -MMD -MT dependencies -MF /var/folders/f1/9km2rrlj6j5cwwgzkz9thrp80000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-Dropbox-Sync-API-SDK-prefix-cayeibvhkmzabycslekckrdlkqft/Pods-Dropbox-Sync-API-SDK-prefix.pch.d -c /Users/xavierriley/Motion/EasyRecorder/vendor/Pods/Target\ Support\ Files/Pods-Dropbox-Sync-API-SDK/Pods-Dropbox-Sync-API-SDK-prefix.pch -o /var/folders/f1/9km2rrlj6j5cwwgzkz9thrp80000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-Dropbox-Sync-API-SDK-prefix-cayeibvhkmzabycslekckrdlkqft/Pods-Dropbox-Sync-API-SDK-prefix.pch.pch36"9A09D47A-B103-465F-B7A2-EA9016D9D866-
-bC073CB14-D6D9-4F91-B268-4E41C4741597
-
